@@ -1,0 +1,133 @@
+ /* THEME STYLES 
+  * 
+  *   Primary background-color: #25c79f;     
+  * Secondary background-color: #f1f4f7;
+  *   Theme Inverse text color: #FFF;
+  *        Theme custom button: #1eb38e;
+  * Theme custom button-shadow: #18ab87;
+  * 
+-------------------------------------------------- */ 
+ 
+ /* ============ Theme Background color ============ */
+
+.theme-color, 
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus,
+.header-bottom,
+.roll span:after,
+.services-box:hover  i.fa,
+.roll:hover span,
+.social-icons ul li a,
+.navbar-inverse .navbar-collapse.in .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-collapse.in .navbar-nav > li > a:focus,
+.sidebar-menu .list-group-item:hover,
+.sidebar-menu .active .list-group-item,
+#filtrable .active a,
+.pagination > li > a:hover, .pagination > li > span:active,
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus,
+.nav-tabs > li.active > a,  .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus, .nav-tabs > li  > a:hover, .nav-tabs > li  > a:focus {  
+	background-color: #25c79f;
+}
+ 
+/* ============ Theme Secondary Background color ============ */ 
+.services-box i.fa,
+.recent-work,
+.blog-article .roll.blog-img span:after,
+blockquote.testimonials-box,
+.sidebar-menu .list-group-item { 
+ 	background-color: #f1f4f7;
+}
+
+
+ 
+ /* ============ Theme Text color============ */
+.navbar > .container .navbar-brand, 
+.section-header > h2,
+.services-box i.fa,
+.main-footer i.fa,
+.email-id:hover,
+.headline h1,
+.headline h2,
+.letter {
+	color: #25c79f; 
+}
+  
+  
+/* ============ Theme Inverse text color ============ */
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus,
+.header-bottom,
+.header-bottom h2,
+.services-box:hover  i.fa,
+.btn-theme,
+.social-icons ul li a,
+.sidebar-menu .list-group-item:hover,
+.sidebar-menu .active .list-group-item{
+	color: #FFF; 
+}
+
+/* ============ link color ============ */
+a {
+	color: #25c79f;
+	text-decoration: none;
+} 
+a:hover,
+a:active {
+	color: #18ab87;
+}
+
+
+/* ============ Background  theme color for css property============ */ 
+.services-box  i.fa:after { 
+	box-shadow: 0 0 0 4px #25c79f;
+}
+ 
+blockquote {
+	border-left: 5px solid #25c79f;
+}
+
+.main-footer{
+	border-top: 5px solid #25c79f;
+}
+
+.title-box {  
+		border-bottom: 5px solid #25c79f;
+}
+ 
+/* Custom buttons for header bottom block */  
+/* btn-theme */
+ .btn-theme {
+  background-color: #1eb38e;
+  border-color: #1eb38e; 
+  box-shadow: 3px 3px 0px #18ab87; 
+  transition: all 0 ease;
+}
+.btn-theme:hover,
+.btn-theme:focus,
+.btn-theme:active,
+.btn-theme.active { 
+  color:#FFF; 
+  outline: none;
+}
+.btn-theme:active{  
+ 	top: 2px;
+	left: 1px;
+	position: relative;
+}
+
+.text-right.app-details-box:after {
+	border-left-color: #25c79f;
+}
+.text-left.app-details-box:after {
+	border-right-color: #25c79f;
+}
+ .table-theme th {
+	background:#25c79f;
+	color:#FFF; 
+}
+ 
+
+ 
